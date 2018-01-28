@@ -17,7 +17,7 @@ var line2= []
 while (line.length>0) {
 for (l=0; l < line.length; l++)  {
  line2.push (l+1) + ":" + currentLine(0)}
-return "The line is currently:" + line2()
+return "The line is currently:" + line2
 }
 
 return ("The line is currently empty.")
