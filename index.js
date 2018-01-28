@@ -12,7 +12,7 @@ while (deliLine.length>0) {
 }
 
 function currentLine(line){
-
+let l =0
 while (line.length>0) {
 var line2 = []  
 for (l=0; l < line.length; l++)  {
